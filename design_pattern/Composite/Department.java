@@ -23,7 +23,7 @@ public class Department extends Unit{
     }
 
     public void printList(String prefix){
-        System.out.println(prefix + " " + this);
+        System.out.println(prefix + "/" + this);
 
         Iterator<Unit> it = departmentList.iterator();
         while(it.hasNext()){
